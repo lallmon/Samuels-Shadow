@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<smil xmlns="http://www.w3.org/ns/SMIL" version="3.0">
+  <body>
+    <par id="id376">
+      <text src="./pg021.xhtml#w360"/>
+      <audio clipBegin="0:00:06.7" clipEnd="0:00:07.039" src="../audio/narration.mp4"/>
+    <par id="id377">
+      <text src="./pg021.xhtml#w360"/>
+      <audio clipBegin="0:00:06.7" clipEnd="0:00:07.039" src="../audio/narration.mp4"/>
+    <par id="id378">
+      <text src="./pg021.xhtml#w360"/>
+      <audio clipBegin="0:00:06.7" clipEnd="0:00:07.039" src="../audio/narration.mp4"/>
+    <par id="id379">
+      <text src="./pg021.xhtml#w360"/>
+      <audio clipBegin="0:00:06.7" clipEnd="0:00:07.039" src="../audio/narration.mp4"/>
+    <par id="id380">
+      <text src="./pg021.xhtml#w360"/>
+      <audio clipBegin="0:00:06.7" clipEnd="0:00:07.039" src="../audio/narration.mp4"/>
+    <par id="id381">
+      <text src="./pg021.xhtml#w360"/>
+      <audio clipBegin="0:00:06.7" clipEnd="0:00:07.039" src="../audio/narration.mp4"/>
+    <par id="id382">
+      <text src="./pg021.xhtml#w360"/>
+      <audio clipBegin="0:00:06.7" clipEnd="0:00:07.039" src="../audio/narration.mp4"/>
+    <par id="id383">
+      <text src="./pg021.xhtml#w360"/>
+      <audio clipBegin="0:00:06.7" clipEnd="0:00:07.039" src="../audio/narration.mp4"/>
+    <par id="id384">
+      <text src="./pg021.xhtml#w360"/>
+      <audio clipBegin="0:00:06.7" clipEnd="0:00:07.039" src="../audio/narration.mp4"/>
+    <par id="id385">
+      <text src="./pg021.xhtml#w360"/>
+      <audio clipBegin="0:00:06.7" clipEnd="0:00:07.039" src="../audio/narration.mp4"/>
+    <par id="id386">
+      <text src="./pg021.xhtml#w360"/>
+      <audio clipBegin="0:00:06.7" clipEnd="0:00:07.039" src="../audio/narration.mp4"/>
+    <par id="id387">
+      <text src="./pg021.xhtml#w360"/>
+      <audio clipBegin="0:00:06.7" clipEnd="0:00:07.039" src="../audio/narration.mp4"/>
+    <par id="id388">
+      <text src="./pg021.xhtml#w360"/>
+      <audio clipBegin="0:00:06.7" clipEnd="0:00:07.039" src="../audio/narration.mp4"/>
+    <par id="id389">
+      <text src="./pg021.xhtml#w360"/>
+      <audio clipBegin="0:00:06.7" clipEnd="0:00:07.039" src="../audio/narration.mp4"/>
+    <par id="id390">
+      <text src="./pg021.xhtml#w360"/>
+      <audio clipBegin="0:00:06.7" clipEnd="0:00:07.039" src="../audio/narration.mp4"/>
+  </body>
+</smil>

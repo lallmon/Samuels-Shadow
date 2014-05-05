@@ -1,127 +1,163 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" unique-identifier="bookid" version="3.0" prefix="rendition: http://www.idpf.org/vocab/rendition/# ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/">
   <metadata xmlns="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" >
-    <dc:title>Samuel's Shadow</dc:title>
-    <dc:identifier id="bookid">0123456789</dc:identifier>
-    <dc:language>en</dc:language>
-    <meta property="dcterms:modified">2012-08-15T00:00:00Z</meta>
-
+	<dc:title>Samuel's Shadow</dc:title>
+	<dc:identifier id="bookid">0123456789</dc:identifier>
+	<dc:language>en</dc:language>
 	<dc:rights>Copyright 2012 Lucas K Allmon</dc:rights>    
 	<dc:creator>Lucas K Allmon</dc:creator>
-	
+	<meta property="dcterms:modified">2012-08-15T00:00:00Z</meta>
 	<meta property="ibooks:version">3.0</meta>
 	<meta property="ibooks:specified-fonts">true</meta>	
 	<meta property="rendition:layout">pre-paginated</meta>
 	<meta property="rendition:spread">both</meta>
 	<meta property="rendition:orientation">landscape</meta>
 	<meta property="media:active-class">-epub-media-overlay-active</meta>
-	<meta property="media:duration">0:00:48</meta>
-	<meta property="media:duration" refines="#moPage001">0:00:03</meta>
-	<meta property="media:duration" refines="#moPage002">0:00:06</meta>
-	<meta property="media:duration" refines="#moPage003">0:00:06</meta>
-	<meta property="media:duration" refines="#moPage004">0:00:05</meta>
-	<meta property="media:duration" refines="#moPage005">0:00:15</meta>
-	<meta property="media:duration" refines="#moPage007">0:00:12</meta>
+	
+	<!-- Media Overlay Metadata -->
+	<meta property="media:duration" refines="#moCover">5.0s</meta>
+	<!-- <meta property="media:duration" refines="#mocontrols">0:00:00</meta>
+	<meta property="media:duration" refines="#moPg001">0:00:03</meta>
+	<meta property="media:duration" refines="#moPg002">0:00:06</meta>
+	<meta property="media:duration" refines="#moPg003">0:00:06</meta>
+	<meta property="media:duration" refines="#moPg004">0:00:05</meta>
+	<meta property="media:duration" refines="#moPg005">0:00:15</meta>
+	<meta property="media:duration" refines="#moPg006">0:00:12</meta>
+	<meta property="media:duration" refines="#moPg007">0:00:12</meta>
+	<meta property="media:duration" refines="#moPg008">0:00:12</meta>
+	<meta property="media:duration" refines="#moPg009">0:00:12</meta>
+	<meta property="media:duration" refines="#moPg010">0:00:12</meta>
+	<meta property="media:duration" refines="#moPg011">0:00:12</meta>
+	<meta property="media:duration" refines="#moPg012">0:00:12</meta>
+	<meta property="media:duration" refines="#moPg013">0:00:12</meta>
+	<meta property="media:duration" refines="#moPg014">0:00:12</meta>
+	<meta property="media:duration" refines="#moPg015">0:00:12</meta>
+	<meta property="media:duration" refines="#moPg016">0:00:12</meta>
+	<meta property="media:duration" refines="#moPg017">0:00:12</meta>
+	<meta property="media:duration" refines="#moPg018">0:00:12</meta>
+	<meta property="media:duration" refines="#moPg019">0:00:12</meta>
+	<meta property="media:duration" refines="#moPg020">0:00:12</meta>
+	<meta property="media:duration" refines="#moPg021">0:00:12</meta>
+	<meta property="media:duration" refines="#moPg022">0:00:12</meta> -->
   </metadata>
   
   <manifest>
-    <!--supplementary -->
-    <item id="toc" href="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
-    <item id="css" href="css/stylesheet.css" media-type="text/css"/>
-    <item id="css-1" href="css/page01.css" media-type="text/css"/>
-    <item id="css-2" href="css/page02.css" media-type="text/css"/>
-    <item id="css-3" href="css/page03.css" media-type="text/css"/>
-    <item id="css-4" href="css/page04.css" media-type="text/css"/>
-    <item id="css-5" href="css/page05.css" media-type="text/css"/>
-    <item id="css-6" href="css/page06.css" media-type="text/css"/>
-    <item id="css-7" href="css/page07.css" media-type="text/css"/>
-    <item id="css-8" href="css/page08.css" media-type="text/css"/>
+	<!--supplementary -->
+	<item id="toc" href="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+	<item id="css" href="css/stylesheet.css" media-type="text/css"/>
+	<item id="css" href="css/pageLayout.css" media-type="text/css"/>
 
-    <!--javascript-->
-    <item id="js-ib" href="js/ibooks.js" media-type="text/javascript"/>
-    <item id="js-media-overlay" href="js/media-overlay.js" media-type="text/javascript"/>
-
-    <!--content-->
-    <item id="cover" href="cover.xhtml" media-type="application/xhtml+xml"/>
-    <item id="controls" href="controls.xhtml" media-type="application/xhtml+xml"/>
-    <item id="pg001" href="pg001.xhtml" media-type="application/xhtml+xml" properties="scripted" media-overlay="moPage001"/>
-    <item id="pg002" href="pg002.xhtml" media-type="application/xhtml+xml" properties="scripted" media-overlay="moPage002"/>
-    <item id="pg003" href="pg003.xhtml" media-type="application/xhtml+xml" properties="scripted" media-overlay="moPage003"/>
-    <item id="pg004" href="pg004.xhtml" media-type="application/xhtml+xml" properties="scripted svg" media-overlay="moPage004"/>
-    <item id="pg005" href="pg005.xhtml" media-type="application/xhtml+xml" properties="scripted" media-overlay="moPage005"/>
-    <item id="pg006" href="pg006.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
-    <item id="pg007" href="pg007.xhtml" media-type="application/xhtml+xml" media-overlay="moPage007"/>
-    <item id="pg008" href="pg008.xhtml" media-type="application/xhtml+xml"/>
-    <item id="pg009" href="pg009.xhtml" media-type="application/xhtml+xml"/>
-    <item id="pg010" href="pg010.xhtml" media-type="application/xhtml+xml"/>
-    <item id="pg011" href="pg011.xhtml" media-type="application/xhtml+xml"/>
-    <item id="pg012" href="pg012.xhtml" media-type="application/xhtml+xml"/>
-    <item id="pg013" href="pg013.xhtml" media-type="application/xhtml+xml"/>
-    <item id="pg014" href="pg014.xhtml" media-type="application/xhtml+xml"/>
-    <item id="pg015" href="pg015.xhtml" media-type="application/xhtml+xml"/>
-    <item id="pg016" href="pg016.xhtml" media-type="application/xhtml+xml"/>
-    <item id="pg017" href="pg017.xhtml" media-type="application/xhtml+xml"/>
-    <item id="pg018" href="pg018.xhtml" media-type="application/xhtml+xml"/>
-    <item id="pg019" href="pg019.xhtml" media-type="application/xhtml+xml"/>
-    <item id="pg020" href="pg020.xhtml" media-type="application/xhtml+xml"/>
-    <item id="pg021" href="pg021.xhtml" media-type="application/xhtml+xml"/>
-    <item id="pg022" href="pg022.xhtml" media-type="application/xhtml+xml"/>
-
-    <!--images-->
-    <item id="cover1" href="images/cover.jpg" media-type="image/jpeg" properties="cover-image"/>
-    <item id="pg1-fl" href="images/page1/flowers.jpg" media-type="image/jpeg"/>
-    <item id="pg2-ct" href="images/page2/flowers/center.png" media-type="image/png"/>
-    <item id="pg2-st" href="images/page2/flowers/stem.png" media-type="image/png"/>
-    <item id="pg2-bg" href="images/page2/page2.jpg" media-type="image/jpeg"/>
-    <item id="pg3-bg" href="images/page3/background.jpg" media-type="image/jpeg"/>
-    <item id="pg4-bg" href="images/page4/background.jpg" media-type="image/jpeg"/>
-    <item id="pg4-fl" href="images/page4/flower.png" media-type="image/png"/>
-    <item id="pg4-ra" href="images/page4/rays.png" media-type="image/png"/>
-    <item id="pg5-bg" href="images/page5/background.jpg" media-type="image/jpeg"/>
-    <item id="pg5-ey" href="images/page5/closedeyes.png" media-type="image/png"/>
-    <item id="pg5-fa" href="images/page5/face.png" media-type="image/png"/>
-    <item id="pg5-ss" href="images/page5/star-sprite.png" media-type="image/png"/>
-    <item id="pg6-bg" href="images/page6/background.jpg" media-type="image/jpeg"/>
-    <item id="pg8-bc" href="images/page8/backCover.jpg" media-type="image/jpeg"/>
-    <item id="pg8-pt" href="images/page8/poster.jpg" media-type="image/jpeg"/>
-    
-    <!--av-->
-    <item id="narrat" href="audio/sonnet.mp4" media-type="audio/mp4"/>
-    
-    <!--smil-->
-    <item id="moPage001" href="smil/page001.smil" media-type="application/smil+xml"/>
-    <item id="moPage002" href="smil/page002.smil" media-type="application/smil+xml"/>
-    <item id="moPage003" href="smil/page003.smil" media-type="application/smil+xml"/>
-    <item id="moPage004" href="smil/page004.smil" media-type="application/smil+xml"/>
-    <item id="moPage005" href="smil/page005.smil" media-type="application/smil+xml"/>
-    <item id="moPage007" href="smil/page007.smil" media-type="application/smil+xml"/>
+	<!--javascript-->
+	<item id="js-ib" href="js/ibooks.js" media-type="text/javascript"/>
+	<!-- <item id="js-media-overlay" href="js/media-overlay.js" media-type="text/javascript"/>
+	-->
+	<!--content-->
+	<item id="cover" href="cover.xhtml" media-type="application/xhtml+xml" properties="scripted" media-overlay="moCover"/>
+	<!-- <item id="controls" href="controls.xhtml" media-type="application/xhtml+xml" media-overlay="moControls"/>
+	<item id="pg001" href="pg001.xhtml" media-type="application/xhtml+xml" media-overlay="moPg001"/>
+	<item id="pg002" href="pg002.xhtml" media-type="application/xhtml+xml" media-overlay="moPg002"/>
+	<item id="pg003" href="pg003.xhtml" media-type="application/xhtml+xml" media-overlay="moPg003"/>
+	<item id="pg004" href="pg004.xhtml" media-type="application/xhtml+xml" media-overlay="moPg004"/>
+	<item id="pg005" href="pg005.xhtml" media-type="application/xhtml+xml" media-overlay="moPg005"/>
+	<item id="pg006" href="pg006.xhtml" media-type="application/xhtml+xml" media-overlay="moPg006"/>
+	<item id="pg007" href="pg007.xhtml" media-type="application/xhtml+xml" media-overlay="moPg007"/>
+	<item id="pg008" href="pg008.xhtml" media-type="application/xhtml+xml" media-overlay="moPg008"/>
+	<item id="pg009" href="pg009.xhtml" media-type="application/xhtml+xml" media-overlay="moPg009"/>
+	<item id="pg010" href="pg010.xhtml" media-type="application/xhtml+xml" media-overlay="moPg010"/>
+	<item id="pg011" href="pg011.xhtml" media-type="application/xhtml+xml" media-overlay="moPg011"/>
+	<item id="pg012" href="pg012.xhtml" media-type="application/xhtml+xml" media-overlay="moPg012"/>
+	<item id="pg013" href="pg013.xhtml" media-type="application/xhtml+xml" media-overlay="moPg013"/>
+	<item id="pg014" href="pg014.xhtml" media-type="application/xhtml+xml" media-overlay="moPg014"/>
+	<item id="pg015" href="pg015.xhtml" media-type="application/xhtml+xml" media-overlay="moPg015"/>
+	<item id="pg016" href="pg016.xhtml" media-type="application/xhtml+xml" media-overlay="moPg016"/>
+	<item id="pg017" href="pg017.xhtml" media-type="application/xhtml+xml" media-overlay="moPg017"/>
+	<item id="pg018" href="pg018.xhtml" media-type="application/xhtml+xml" media-overlay="moPg018"/>
+	<item id="pg019" href="pg019.xhtml" media-type="application/xhtml+xml" media-overlay="moPg019"/>
+	<item id="pg020" href="pg020.xhtml" media-type="application/xhtml+xml" media-overlay="moPg010"/>
+	<item id="pg021" href="pg021.xhtml" media-type="application/xhtml+xml" media-overlay="moPg021"/>
+	<item id="pg022" href="pg022.xhtml" media-type="application/xhtml+xml" media-overlay="moPg022"/> -->
+	<!--smil-->
+	<item id="moCover" href="smil/cover.smil" media-type="application/smil+xml"/>
+	<!-- <item id="moControls" href="smil/controls.smil" media-type="application/smil+xml"/>
+	<item id="moPg001" href="smil/pg001.smil" media-type="application/smil+xml"/>
+	<item id="moPg002" href="smil/pg002.smil" media-type="application/smil+xml"/>
+	<item id="moPg003" href="smil/pg003.smil" media-type="application/smil+xml"/>
+	<item id="moPg004" href="smil/pg004.smil" media-type="application/smil+xml"/>
+	<item id="moPg005" href="smil/pg005.smil" media-type="application/smil+xml"/>
+	<item id="moPg006" href="smil/pg006.smil" media-type="application/smil+xml"/>
+	<item id="moPg007" href="smil/pg007.smil" media-type="application/smil+xml"/>
+	<item id="moPg008" href="smil/pg008.smil" media-type="application/smil+xml"/>
+	<item id="moPg009" href="smil/pg009.smil" media-type="application/smil+xml"/>
+	<item id="moPg010" href="smil/pg010.smil" media-type="application/smil+xml"/>
+	<item id="moPg011" href="smil/pg011.smil" media-type="application/smil+xml"/>
+	<item id="moPg012" href="smil/pg012.smil" media-type="application/smil+xml"/>
+	<item id="moPg013" href="smil/pg013.smil" media-type="application/smil+xml"/>
+	<item id="moPg014" href="smil/pg014.smil" media-type="application/smil+xml"/>
+	<item id="moPg015" href="smil/pg015.smil" media-type="application/smil+xml"/>
+	<item id="moPg016" href="smil/pg016.smil" media-type="application/smil+xml"/>
+	<item id="moPg017" href="smil/pg017.smil" media-type="application/smil+xml"/>
+	<item id="moPg018" href="smil/pg018.smil" media-type="application/smil+xml"/>
+	<item id="moPg019" href="smil/pg019.smil" media-type="application/smil+xml"/>
+	<item id="moPg020" href="smil/pg020.smil" media-type="application/smil+xml"/>
+	<item id="moPg021" href="smil/pg021.smil" media-type="application/smil+xml"/>
+	<item id="moPg022" href="smil/pg022.smil" media-type="application/smil+xml"/>
+	-->
+	<!--images-->
+	<item id="coverImg" href="images/cover.jpg" media-type="image/jpeg" properties="cover-image"/>
+	<item id="bg1" href="images/pg001.jpg" media-type="image/jpeg" properties="page-background"/>
+	<!-- <item id="bg2" href="images/pg002.jpg" media-type="image/jpeg" properties="page-background"/>
+	<item id="bg3" href="images/pg003.jpg" media-type="image/jpeg" properties="page-background"/>
+	<item id="bg4" href="images/pg004.jpg" media-type="image/jpeg" properties="page-background"/>
+	<item id="bg5" href="images/pg005.jpg" media-type="image/jpeg" properties="page-background"/>
+	<item id="bg6" href="images/pg006.jpg" media-type="image/jpeg" properties="page-background"/>
+	<item id="bg7" href="images/pg007.jpg" media-type="image/jpeg" properties="page-background"/>
+	<item id="bg8" href="images/pg008.jpg" media-type="image/jpeg" properties="page-background"/>
+	<item id="bg9" href="images/pg009.jpg" media-type="image/jpeg" properties="page-background"/>
+	<item id="bg10" href="images/pg010.jpg" media-type="image/jpeg" properties="page-background"/>
+	<item id="bg11" href="images/pg011.jpg" media-type="image/jpeg" properties="page-background"/>
+	<item id="bg12" href="images/pg012.jpg" media-type="image/jpeg" properties="page-background"/>
+	<item id="bg13" href="images/pg013.jpg" media-type="image/jpeg" properties="page-background"/>
+	<item id="bg14" href="images/pg014.jpg" media-type="image/jpeg" properties="page-background"/>
+	<item id="bg15" href="images/pg015.jpg" media-type="image/jpeg" properties="page-background"/>
+	<item id="bg16" href="images/pg016.jpg" media-type="image/jpeg" properties="page-background"/>
+	<item id="bg17" href="images/pg017.jpg" media-type="image/jpeg" properties="page-background"/>
+	<item id="bg18" href="images/pg018.jpg" media-type="image/jpeg" properties="page-background"/>
+	<item id="bg19" href="images/pg019.jpg" media-type="image/jpeg" properties="page-background"/>
+	<item id="bg20" href="images/pg020.jpg" media-type="image/jpeg" properties="page-background"/>
+	<item id="bg21" href="images/pg021.jpg" media-type="image/jpeg" properties="page-background"/>
+	<item id="bg22" href="images/pg022.jpg" media-type="image/jpeg" properties="page-background"/>
+	-->	
+	<!--av-->
+	<item id="narrat" href="audio/narration.m4a" media-type="audio/mpeg"/>
+	
+	<item id="narrat2" href="audio/narration.mp3" media-type="audio/mpeg"/>
   </manifest>
   
   <spine>
-    <itemref idref="cover"/>
-    <itemref idref="controls"/>
-    <itemref idref="pg001"/>   
-    <itemref idref="pg002"/>
-    <itemref idref="pg003"/>
-    <itemref idref="pg004"/>
-    <itemref idref="pg005"/>
-    <itemref idref="pg006"/>
-    <itemref idref="pg007"/>
-    <itemref idref="pg008"/>
-    <itemref idref="pg009"/> 
-    <itemref idref="pg010"/>
-    <itemref idref="pg011"/>
-    <itemref idref="pg012"/>
-    <itemref idref="pg013"/>
-    <itemref idref="pg014"/>
-    <itemref idref="pg015"/>
-    <itemref idref="pg016"/>
-    <itemref idref="pg017"/>
-    <itemref idref="pg018"/>
-    <itemref idref="pg019"/>
-    <itemref idref="pg020"/>
-    <itemref idref="pg021"/>
-    <itemref idref="pg022"/> 
+	<itemref idref="cover"/>
+	<!-- <itemref idref="controls"/>
+	<itemref idref="pg001"/>   
+	<itemref idref="pg002"/>
+	<itemref idref="pg003"/>
+	<itemref idref="pg004"/>
+	<itemref idref="pg005"/>
+	<itemref idref="pg006"/>
+	<itemref idref="pg007"/>
+	<itemref idref="pg008"/>
+	<itemref idref="pg009"/> 
+	<itemref idref="pg010"/>
+	<itemref idref="pg011"/>
+	<itemref idref="pg012"/>
+	<itemref idref="pg013"/>
+	<itemref idref="pg014"/>
+	<itemref idref="pg015"/>
+	<itemref idref="pg016"/>
+	<itemref idref="pg017"/>
+	<itemref idref="pg018"/>
+	<itemref idref="pg019"/>
+	<itemref idref="pg020"/>
+	<itemref idref="pg021"/>
+	<itemref idref="pg022"/> -->
   </spine>
 
 </package>

@@ -3,6 +3,15 @@ font-family: "Chalkduster";
 src: url('fonts/Chalkduster.ttf')
 }
 
+p {
+	position: fixed;
+	font-family: "Chalkduster";
+	font-size: 18px;
+	/*border-style: solid;
+	border-width: 1px;
+	border-color: black;*/
+}
+
 
 body { 
   margin: 0;
@@ -15,14 +24,6 @@ audio {
   top: -30px;
 }
 
-
-p { 
-  font-family: "Chalkduster";
-  position: absolute;
-  color: black;
-  margin: 0;
-  padding: 0;
-}
 
 img {
   position: absolute;
@@ -40,6 +41,7 @@ img.background {
 }
 
 .page {
+	position: relative;
   width: 575px;
   height: 432px;
   overflow: hidden;
@@ -49,38 +51,12 @@ img.background {
   color: #dc4c37;
 }
 
-#word1.-epub-media-overlay-active, 
-#word2.-epub-media-overlay-active {
-  color: #29628B;
-}
 
 
 /* 
   When using global styles, be aware that the keyframe names
   are global.
 */
-
-@-webkit-keyframes blink {
-  0% { opacity: 0; }
-  9% { opacity: 0; }
-  10% { opacity: 1; }
-  18% { opacity: 1; }
-  19% { opacity: 0; }
-  40% { opacity: 0; }
-  41% { opacity: 1; }
-  50% { opacity: 1; }
-  51% { opacity: 0; }
-  70% { opacity: 0; }
-  71% { opacity: 1; }
-  75% { opacity: 1; }
-  76% { opacity: 0; }
-  100% { opacity: 0; }
-}
-
-@-webkit-keyframes pulse {
-    from  { opacity: 0; }
-    to    { opacity: 1; }
-}
 
 @-webkit-keyframes glow {
   0%    { text-shadow: 0px 0px 15px #69828d; }

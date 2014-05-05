@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<smil xmlns="http://www.w3.org/ns/SMIL" version="3.0">
+  <body>
+    <par id="id211">
+      <text src="./pg014.xhtml#w211"/>
+      <audio clipBegin="0:00:06.7" clipEnd="0:00:07.039" src="../audio/narration.mp4"/>
+    <par id="id212">
+      <text src="./pg014.xhtml#w212"/>
+      <audio clipBegin="0:00:06.7" clipEnd="0:00:07.039" src="../audio/narration.mp4"/>
+    <par id="id213">
+      <text src="./pg014.xhtml#w213"/>
+      <audio clipBegin="0:00:06.7" clipEnd="0:00:07.039" src="../audio/narration.mp4"/>
+    <par id="id214">
+      <text src="./pg014.xhtml#w214"/>
+      <audio clipBegin="0:00:06.7" clipEnd="0:00:07.039" src="../audio/narration.mp4"/>
+    <par id="id215">
+      <text src="./pg014.xhtml#w215"/>
+      <audio clipBegin="0:00:06.7" clipEnd="0:00:07.039" src="../audio/narration.mp4"/>
+    <par id="id216">
+      <text src="./pg014.xhtml#w216"/>
+      <audio clipBegin="0:00:06.7" clipEnd="0:00:07.039" src="../audio/narration.mp4"/>
+    <par id="id217">
+      <text src="./pg014.xhtml#w217"/>
+      <audio clipBegin="0:00:06.7" clipEnd="0:00:07.039" src="../audio/narration.mp4"/>
+    <par id="id218">
+      <text src="./pg014.xhtml#w218"/>
+      <audio clipBegin="0:00:06.7" clipEnd="0:00:07.039" src="../audio/narration.mp4"/>
+    <par id="id219">
+      <text src="./pg014.xhtml#w219"/>
+      <audio clipBegin="0:00:06.7" clipEnd="0:00:07.039" src="../audio/narration.mp4"/>
+    <par id="id220">
+      <text src="./pg014.xhtml#w220"/>
+      <audio clipBegin="0:00:06.7" clipEnd="0:00:07.039" src="../audio/narration.mp4"/>
+    <par id="id221">
+      <text src="./pg014.xhtml#w221"/>
+      <audio clipBegin="0:00:06.7" clipEnd="0:00:07.039" src="../audio/narration.mp4"/>
+    <par id="id222">
+      <text src="./pg014.xhtml#w222"/>
+      <audio clipBegin="0:00:06.7" clipEnd="0:00:07.039" src="../audio/narration.mp4"/>
+    <par id="id223">
+      <text src="./pg014.xhtml#w223"/>
+      <audio clipBegin="0:00:06.7" clipEnd="0:00:07.039" src="../audio/narration.mp4"/>
+    <par id="id224">
+      <text src="./pg014.xhtml#w224"/>
+      <audio clipBegin="0:00:06.7" clipEnd="0:00:07.039" src="../audio/narration.mp4"/>
+    <par id="id225">
+      <text src="./pg014.xhtml#w225"/>
+      <audio clipBegin="0:00:06.7" clipEnd="0:00:07.039" src="../audio/narration.mp4"/>
+    <par id="id226">
+      <text src="./pg014.xhtml#w226"/>
+      <audio clipBegin="0:00:06.7" clipEnd="0:00:07.039" src="../audio/narration.mp4"/>
+    <par id="id227">
+      <text src="./pg014.xhtml#w227"/>
+      <audio clipBegin="0:00:06.7" clipEnd="0:00:07.039" src="../audio/narration.mp4"/>
+    <par id="id228">
+      <text src="./pg014.xhtml#w228"/>
+      <audio clipBegin="0:00:06.7" clipEnd="0:00:07.039" src="../audio/narration.mp4"/>
+    <par id="id229">
+      <text src="./pg014.xhtml#w229"/>
+      <audio clipBegin="0:00:06.7" clipEnd="0:00:07.039" src="../audio/narration.mp4"/>
+    <par id="id230">
+      <text src="./pg014.xhtml#w230"/>
+      <audio clipBegin="0:00:06.7" clipEnd="0:00:07.039" src="../audio/narration.mp4"/>
+  </body>
+</smil>

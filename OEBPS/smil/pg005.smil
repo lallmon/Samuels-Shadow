@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<smil xmlns="http://www.w3.org/ns/SMIL" version="3.0">
+  <body>
+    <par id="id61">
+      <text src="../pg005.xhtml#w61"/>
+      <audio clipBegin="0:00:03" clipEnd="0:00:04.358" src="../audio/narration.mp4"/>
+    </par>
+    <par id="id62">
+      <text src="../pg005.xhtml#w62"/>
+      <audio clipBegin="0:00:04.358" clipEnd="0:00:04.454" src="../audio/narration.mp4"/>
+    </par>
+    <par id="id63">
+      <text src="../pg005.xhtml#w63"/>
+      <audio clipBegin="0:00:04.454" clipEnd="0:00:04.812" src="../audio/narration.mp4"/>
+    </par>
+    <par id="id64">
+      <text src="../pg005.xhtml#w64"/>
+      <audio clipBegin="0:00:04.812" clipEnd="0:00:04.986" src="../audio/narration.mp4"/>
+    </par>
+    <par id="id65">
+      <text src="../pg005.xhtml#w65"/>
+      <audio clipBegin="0:00:04.986" clipEnd="0:00:05.090" src="../audio/narration.mp4"/>
+    </par>
+    <par id="id66">
+      <text src="../pg005.xhtml#w66"/>
+      <audio clipBegin="0:00:05.090" clipEnd="0:00:05.147" src="../audio/narration.mp4"/>
+    </par>
+    <par id="id67">
+      <text src="../pg005.xhtml#w67"/>
+      <audio clipBegin="0:00:05.147" clipEnd="0:00:05.566" src="../audio/narration.mp4"/>
+    </par>
+    <par id="id68">
+      <text src="../pg005.xhtml#w68"/>
+      <audio clipBegin="0:00:05.147" clipEnd="0:00:05.566" src="../audio/narration.mp4"/>
+    </par>
+    <par id="id69">
+      <text src="../pg005.xhtml#w69"/>
+      <audio clipBegin="0:00:05.566" clipEnd="0:00:06.7" src="../audio/narration.mp4"/>
+    </par>
+    <par id="id70">
+      <text src="../pg005.xhtml#w70"/>
+      <audio clipBegin="0:00:05.147" clipEnd="0:00:05.566" src="../audio/narration.mp4"/>
+    </par>
+  </body>
+</smil>

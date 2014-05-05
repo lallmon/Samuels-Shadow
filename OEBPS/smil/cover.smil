@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<smil xmlns="http://www.w3.org/ns/SMIL" version="3.0" xmlns:epub="http://www.idpf.org/2007/ops">
+  <body>
+    <par id="id1">
+      <text src="../cover.xhtml#w1"/>
+      <audio src="../audio/narration.mp3" clipbegin="0.0s" clipEnd="0.8s"/>
+    </par>
+    <par id="id2">
+      <text src="../cover.xhtml#w2"/>
+      <audio src="audio/narration.mp3" clipBegin="0.8s" clipEnd="2.2s"/>
+    </par>
+    <par id="id3">
+      <text src="../cover.xhtml#w3"/>
+      <audio src="../audio/narration.mp3" clipBegin="2.2s" clipEnd="3.8s"/>
+    </par>
+    <par id="id4">
+      <text src="../cover.xhtml#w4"/>
+      <audio src="../audio/narration.mp3" clipBegin="3.8s" clipEnd="5.0s"/>
+    </par>
+  </body>
+</smil>
